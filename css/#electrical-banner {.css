@@ -1,0 +1,92 @@
+#electrical-banner {
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	padding: 0px 0;
+	height: auto;
+	position: relative;
+	margin-top: -19px;
+}
+#electrical-banner:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+
+	opacity: 0.7;
+}
+#electrical-banner .content {
+	/*margin-top: 16em;*/
+	position: relative;
+	text-align: center;
+}
+#electrical-banner h1 {
+	color: black;
+	font-weight: 500;
+	font-size: 42px;
+	line-height: 1.2;
+	max-width: 650px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+
+#electrical-banner h1 span:after {
+	display: block;
+	content: '';
+	bottom: -2px;
+	left: 0px;
+	margin-top: 3px;
+	height: 2px;
+	width: 0%;
+	background-color: #fff;
+}
+#electrical-banner h1 span.liner:after {
+	width: 100%;
+	transition: all ease-in-out 2s;
+}
+#electrical-banner span {
+	color: black;
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: 0.8px;
+	font-family: 'PT Serif', serif;
+	
+	
+	
+	text-align: justify;
+}
+#electrical-banner a {
+	padding: 12px 50px;
+	font-size: 11px;
+	line-height: 1.42857143;
+	border-radius: 4px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 500;
+	background-color: #ff4a5d;
+	letter-spacing: 0.8px;
+	text-decoration: none;
+}
+#electrical-banner a:hover {
+	transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-webkit-transition: all 0.6s;
+	background-color: #f53347;
+}
+#head2 h3{
+	text-align: left;
+}
+#head2 h4{
+	text-align: justify;
+	margin-top: -15px;
+	color: white;
+}
+
